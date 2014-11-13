@@ -1,0 +1,117 @@
+/*http://cssdeck.com/labs/ryn8lp74*/
+/*http://cssdeck.com/labs/another-simple-css3-dropdown-menu*/
+/*http://codecanyon.net/item/login-register-form-with-error-handling/full_screen_preview/1921703*/
+/*http://codecanyon.net/item/login-register-form-with-error-handling/1921703?ref=magazinehive*/
+/*http://codecanyon.net/item/twitter-boostrap-modal/3794635*/
+/*http://cssdeck.com/labs/css-only-pinterest-style-columns-layout*/
+@charset "utf-8";
+/* CSS Document */
+/* ---------- FONTAWESOME ---------- */
+/* ---------- http://fortawesome.github.com/Font-Awesome/ ---------- */
+/* ---------- http://weloveiconfonts.com/ ---------- */
+/*@import url(http://weloveiconfonts.com/api/?family=fontawesome);*/
+/* ---------- ERIC MEYER'S RESET CSS ---------- */
+/* ---------- http://meyerweb.com/eric/tools/css/reset/ ---------- */
+/*@import url(http://meyerweb.com/eric/tools/css/reset/reset.css);*/
+@import url(reset.css);
+
+/* ---------- FONTAWESOME ---------- */
+
+[class*="fontawesome-"]:before {
+    font-family: 'FontAwesome', sans-serif;
+}
+
+/* ---------- GENERAL ---------- */
+
+body {
+    /*background-color: #ccc;*/
+    color: #000;
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+input {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    -webkit-appearance: none;
+}
+
+/* ---------- LOGIN ---------- */
+
+#login {
+    margin: 150px auto;
+    box-shadow: rgba(0, 0, 0, 0.298039) 0px 2px 2px 0px;
+    width: 450px;
+}
+
+#login h2 {
+    /*background-color: #f95252;*/
+    background-color: #157FCC;
+    border: 1px solid #157FCC;
+    -webkit-border-radius: 20px 20px 0 0;
+    -moz-border-radius: 20px 20px 0 0;
+    border-radius: 2px 2px 0 0;
+    color: #fff;
+    font-size: 28px;
+    padding: 20px 26px;
+    box-shadow: rgba(0, 0, 0, 0.298039) 0px 2px 2px 0px;
+}
+
+#login h2 span[class*="fontawesome-"] {
+    margin-right: 14px;
+}
+
+#login fieldset {
+    background-color: #fff;
+    -webkit-border-radius: 0 0 20px 20px;
+    -moz-border-radius: 0 0 20px 20px;
+    border-radius: 0 0 2px 2px;
+    padding: 20px 26px;
+}
+
+#login fieldset p {
+    color: #777;
+    margin-bottom: 14px;
+}
+
+#login fieldset p:last-child {
+    margin-bottom: 0;
+}
+
+#login fieldset input {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#login fieldset input[type="email"], #login fieldset input[type="password"] {
+    background-color: #eee;
+    color: #777;
+    padding: 4px 10px;
+    width: 370px;
+}
+
+
+#login fieldset input[type="text"] {
+    background-color: #eee;
+    color: #777;
+    padding: 4px 10px;
+    width: 370px;
+}
+
+#login fieldset input[type="submit"] {
+    background-color: #33cc77;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    padding: 4px 0;
+    width: 100px;
+}
+
+#login fieldset input[type="submit"]:hover {
+    background-color: #28ad63;
+}

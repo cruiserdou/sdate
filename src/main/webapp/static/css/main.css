@@ -1,0 +1,538 @@
+#appro_table{
+    width: 800px;
+    border: 1px solid #6678b1;
+    font-size: 12px;
+    background: #fff;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+#appro_table td{
+    border: 1px solid #ccc;
+    padding: 9px 8px 8px 8px;
+}
+
+#appro_table input[type="text"]{
+    border:none;
+    margin: 0;
+    width: 99%;
+    margin: 0;
+}
+
+.wrap_center{
+    width: 800px;
+    margin: 10px auto;
+}
+
+
+.pubinfo_wrap #main_pubinfo {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin: 30px 35px 30px 35px;
+    background-color: #fff;
+    padding: 30px;
+    height: 90%;
+    width: 90%;
+    float: left;
+    box-shadow: 1px 2px 2px #e4e4e4;
+}
+
+.pubinfo_wrap_list #list_pubinfo {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    /*margin: 30px 35px 30px 0;*/
+    margin-top: 30px;
+    margin-right: 35px;
+    margin-left: 0;
+    padding: 30px;
+    background-color: #fff;
+    width: 300px;
+    height: 90%;
+    float: right;
+    box-shadow: 1px 2px 2px #e4e4e4;
+}
+
+/*数据备份图片样式*/
+.datasec_img {
+    width: 128px;
+    cursor: hand;
+}
+
+.info_detail {
+    height: 220px;
+    width: 1000px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10 10 30 10;
+    padding: 10px;
+}
+
+.info_detail .wrap {
+    display: inline;
+    float: left;
+    width: 100px;
+    height: 200px;
+    position: relative;
+}
+.info_detail .wrap img{
+    margin: 18 0 10 0;
+}
+
+.info_update {
+    cursor: hand;
+}
+
+.update_form {
+    position: relative;
+    display: inline;
+    width: 800px;
+    height: 200px;
+    padding-left: 20px;
+    float: right;
+}
+
+.update_form form {
+    margin-left: 8px;
+    padding-left: 10px;
+    height: 190px;
+    border-left: 1px solid #ccc;
+}
+
+.info_detail table {
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 18px;
+}
+
+.save_form{
+    height: 30px;
+}
+.update_form form a {
+    border: 1px solid #e14100;
+    cursor: hand;
+    color: #fff;
+    background-image: linear-gradient(#f27809, #e14100);
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 3px;
+    margin: 15px;
+    text-decoration: none;
+    padding: 2 5 2 5;
+}
+
+
+.base_table{
+    /*width: 1000px;*/
+    font-size: 12px;
+    border: 1px solid #ccc;
+    margin: 15px 30px;
+    padding: 20px;
+    border-radius: 5px;
+    /*background-image: linear-gradient(#DFE9F5, #C2D4E8);*/
+}
+.base_table td{
+    padding: 5px 0;
+}
+
+.base_table .h{
+    font-weight: bold;
+    width: 50px;
+}
+
+.base_table tr{
+    border-bottom: 1px solid #ccc;
+}
+
+
+.detail_panel {
+    margin: 0 0 0 30px;
+    padding: 10px;
+    column-count: 2;
+    -moz-column-count: 2; /* Firefox */
+    -webkit-column-count: 2; /* Safari and Chrome */
+    column-rule: 1px outset #ccc;
+    -moz-column-rule: 1px outset #ccc; /* Firefox */
+    -webkit-column-rule: 1px outset #ccc; /* Safari and Chrome */
+    column-gap: 40px;
+    -moz-column-gap: 40px; /* Firefox */
+    -webkit-column-gap: 40px; /* Safari and Chrome */
+}
+
+.table_detail {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin: 10px 0 10px 0;
+    border-spacing: 0;
+    font-size: 12px;
+}
+
+.table_detail th {
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 6px;
+}
+
+.table_detail td {
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 6px;
+}
+
+/*定义面板图标*/
+.icon_add {
+    background-image: url(images/add.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_edit {
+    background-image: url(images/edit.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_search {
+    background-image: url(images/search.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_reset {
+    background-image: url(images/reset.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_table_refresh {
+    background-image: url(images/table_refresh.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_menu {
+    background-image: url(images/menu.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_cable {
+    background-image: url(images/cable.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_fiber {
+    background-image: url(images/fiber.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_custorm {
+    background-image: url(images/custorm.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_device {
+    background-image: url(images/device.png) !important
+    background-repeat: no-repeat;
+}
+
+.icon_camera {
+    background-image: url(images/camera.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_excel {
+    background-image: url(images/excel.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_contact {
+    background-image: url(images/contact.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_save {
+    background-image: url(images/save.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_plus {
+    background-image: url(images/plus.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_trash {
+    background-image: url(images/trash.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_help {
+    background-image: url(images/help.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_topo {
+    background-image: url(images/net.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_gov {
+    background-image: url(images/gov.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_repair {
+    background-image: url(images/repair.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_edit_find_replace {
+    background-image: url(images/edit-find-replace.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_chart {
+    background-image: url(images/chart.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_monitor {
+    background-image: url(images/monitor.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_anay {
+    background-image: url(images/analytics.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_menu_tool {
+    background-image: url(images/menu_tool.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_warn {
+    background-image: url(images/warn.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_carapp {
+    background-image: url(images/carapp.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_truck {
+    background-image: url(images/truck.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_police_car {
+    background-image: url(images/police_car.png) !important;
+    background-repeat: no-repeat;
+}
+.icon_police {
+    background-image: url(images/police.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_ccar {
+    background-image: url(images/ccar.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_license {
+    background-image: url(images/license.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_CarRepair {
+    background-image: url(images/CarRepair.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_tool {
+    background-image: url(images/tool.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_approve {
+    background-image: url(images/approve.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_rmb {
+    background-image: url(images/rmb.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_person {
+    background-image: url(images/person.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_card {
+    background-image: url(images/card.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_money {
+    background-image: url(images/money.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_traffic {
+    background-image: url(images/traffic.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_record {
+    background-image: url(images/record.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_information_m {
+    background-image: url(images/infomation-m.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_information_v {
+    background-image: url(images/infomation-v.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_information_push {
+    background-image: url(images/infomation-push.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_group {
+    background-image: url(images/group.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_project_manager {
+    background-image: url(images/project-manager.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_project_flow {
+    background-image: url(images/project-flow.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_construction {
+    background-image: url(images/construction.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_survey {
+    background-image: url(images/survey.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_document {
+    background-image: url(images/document.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_blueprint {
+    background-image: url(images/blueprint.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_contract {
+    background-image: url(images/contract.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_upload {
+    background-image: url(images/upload.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_download {
+    background-image: url(images/download.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_doc {
+    background-image: url(images/doc.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_storehouse{
+    background-image: url(images/storehouse.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_oil{
+    background-image: url(images/oil.png) !important;
+    background-repeat: no-repeat;
+}
+.icon_tyres{
+    background-image: url(images/tyres.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_truck_yellow{
+    background-image: url(images/TruckYellow.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_clipboard{
+    background-image: url(images/clipboard.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_gas_station{
+    background-image: url(images/gas_station.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_paper_doc{
+    background-image: url(images/paper_document.png) !important;
+    background-repeat: no-repeat;
+}
+.icon_gear{
+    background-image: url(images/gear.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_signal{
+    background-image: url(images/signal.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_role{
+    background-image: url(images/role.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_security{
+    background-image: url(images/security.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_delete {
+    background-image: url(images/delete.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_linechart {
+    background-image: url(images/linechart.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_piechart {
+    background-image: url(images/piechart.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_barchart {
+    background-image: url(images/barchart.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_gradchart {
+    background-image: url(images/bargradchart.png) !important;
+    background-repeat: no-repeat;
+}
+
+.icon_import {
+    background-image: url(images/insert.png) !important;
+    background-repeat: no-repeat;
+}
